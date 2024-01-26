@@ -5,7 +5,9 @@ A basic website of our college using HTML & CSS
 <html lang="en">
 <head>
     <title>GG WEBPAGE</title>
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
     <style>
         *{
             margin: 0;
@@ -13,6 +15,7 @@ A basic website of our college using HTML & CSS
             box-sizing: border-box;
             scroll-behavior: smooth;
         }
+        
         h1{
            text-align: center;
            color: black;
@@ -22,6 +25,7 @@ A basic website of our college using HTML & CSS
            margin-right: 400px;
            border: 1px solid black;
         }
+        
         h2{
             background-color: white;
             color: black;
@@ -30,6 +34,7 @@ A basic website of our college using HTML & CSS
             margin-right: 550px;
             border-radius: 7px;
         }
+        
         .navbar{
             display: flex;
             justify-content: space-between;
@@ -38,14 +43,17 @@ A basic website of our college using HTML & CSS
             border-radius: 5px;
             border: 2px black solid;
         }
+        
         .links ul{
             display: flex;
         }
+        
         .links ul li{
             list-style-type: none;
             text-decoration: none;
             margin-left: 50px;
         }
+        
         .navbar .links ul li a{
             color: black;
             text-decoration: none;
@@ -57,6 +65,7 @@ A basic website of our college using HTML & CSS
              background-repeat:no-repeat;
             background-size:cover;  
         }
+        
         #about{
             height: 120vh;
             background-image: url(https://img.freepik.com/free-photo/abstract-blue-geometric-shapes-background_24972-1841.jpg?size=626&ext=jpg&uid=R121447584&ga=GA1.1.1826595276.1697538276&semt=ais);
